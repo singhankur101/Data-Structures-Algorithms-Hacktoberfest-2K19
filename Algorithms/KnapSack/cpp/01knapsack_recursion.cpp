@@ -30,8 +30,8 @@ else return max( val[n-1] + knapSack(W-wt[n-1], wt, val, n-1),
 // Driver code  
 int main()  
 {  
-    int val[] = {60, 100, 120};  
-    int wt[] = {10, 20, 30};  
+    int val[] = {60, 100, 120,140};  
+    int wt[] = {10, 20, 30,40};  
     int W = 50;  
     int n = sizeof(val)/sizeof(val[0]);  
     cout<<knapSack(W, wt, val, n);  
